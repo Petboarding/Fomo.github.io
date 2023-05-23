@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	
+}
+:root{
+
+	--dark:#3B3A42;
+	--black:#000000;
+	--green:#898989;
+	--white:##FFFFFF;
+}
+
+/*---------------bg sec----- navbar--------*/
+.main-bg{
+	background: var(--dark);
+
+}
+.main-bg .navbar .immg{
+	width: 60px;
+}
+.main-bg .navbar .navbar-toggler .navbar-toggler-icon{
+	color: #fff;
+}
+ .main-bg .navbar .collapse .navbar-nav .nav-item .nav-link{
+ 	padding: 20px;
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	line-height: 130%;
+ 	letter-spacing: 0.02em;
+ 	text-decoration: none;
+
+
+
+ }
+ .main-bg .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+ 	color: var(--green);
+
+ }
+ .main-bg h2{
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 800;
+ 	font-size: 144px;
+ 	line-height: 172px;
+ 	letter-spacing: 0.02em;
+ 	margin-top: 90px;
+ }
+ .main-bg .abt-bg{
+ 	margin-top: 110px;
+ }
+ .main-bg .tkn-bg{
+ 	margin-top: 160px;
+ }
+ .main-bg .map-bg{
+ 	margin-top: 160px;
+ }
+ .main-bg  .cntct-bg{
+ 	margin-top: 160px;
+
+ }
+ .main-bg  .cntct-bg a i{
+ 	background: #fff;
+ 	padding: 30px;
+ 	font-size: 47px;
+ 	border-radius: 50%;
+
+
+ 	color: #DADADA;
+ }
+ .main-bg  .cntct-bg a i:hover{
+ 	color:#000;
+ }
+ /*---------ftr--------*/
+ .fotr-bg ul li{
+ 	display: inline-block;
+ 	padding: 19px;
+
+
+ }
+
+ .fotr-bg{
+ 	margin-top: 120px;
+ }
+ .fotr-bg h6{
+ 	margin-top: 21px;
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	letter-spacing: 0.02em;
+ }
+ .main-bg ul li{
+ 	display: inline-block;
+ 	color: #fff;
+ 	font-family: 'Georama';
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	line-height: 130%;
+ 	letter-spacing: 0.02em;
+ 	text-decoration: none;
+ }
